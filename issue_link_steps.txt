@@ -1,0 +1,13 @@
+1. touch issue_test1.txt
+2. issue_test1.txt에 최초 내용 작성 
+3. git add issue_test1.txt 
+4. git commit -m "docs: #4 Add initial  content to issue_tesst1.txt"
+5. git push
+6. 새로운 내용 추가 작성 
+7. git add .
+8. git commit -m "fix: #4 Add content to issue_test1.txt"
+9. git push
+
+**결과**
+커밋 메시지에 docs가 포함되어 있으면 이슈는 자동으로 닫히지 않음.
+커밋 메시지에 fix가 포함되어 있으면 이슈는 자동으로 닫힘.
